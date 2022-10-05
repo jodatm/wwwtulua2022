@@ -143,4 +143,35 @@ img.imagePrincipal{
 	height: 300px;
 }
 
+.suggestions {
+	width: 400px;
+	background: #24303c;
+	padding: 40px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 15px;
+	color: white;
+	font-family: 'calabri';
+}
+
+.inputs {
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid white;
+	font-family: 'calabri';
+	font-size: 15px;
+	color: white;
+}
+
+#submit-suggestion {
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+}
 
