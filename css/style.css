@@ -101,6 +101,13 @@ li:hover{
 	display:block;
 }
 
+.camp2{
+	width:70rem;
+	height:40rem;
+	margin:50px auto;
+	display:block;
+}
+
 .boton{
 	width:20%;
 	margin:10px auto;
@@ -113,6 +120,12 @@ li:hover{
 }
 .fotos{
 	width:275px;
+	display: inline-block;
+	color:#fff;
+}
+
+.fotos2{
+	width:23rem;
 	display: inline-block;
 	color:#fff;
 }
