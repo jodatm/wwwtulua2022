@@ -80,10 +80,15 @@ li:hover{
 	margin-left: 50px
 }
 #divInfoPrincipal p{
+	margin:5px 16px 25px 0px;
+	text-align: justify;
+	color:#ffffff;
+}
+#divInfoCard p{
 	/*margin:5px 16px 25px 0px;*/
 	color:#24303c;
 }
-#divInfoPrincipal{
+#divInfoCard{
 	display: flex;
 }
 .imagenInfo{
@@ -144,7 +149,9 @@ div.card dt,dd{
 }
 .fotos{
 	width:275px;
+	display: inline-block;
 	color:#fff;
+
 }
 
 .fotos2{
