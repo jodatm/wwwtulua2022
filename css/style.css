@@ -85,11 +85,34 @@ nav a:hover{
 	margin-left: 50px
 }
 #divInfoPrincipal p{
-	margin:5px 16px 25px 0px;
-	text-align: justify;
-	color:#ffffff;
+	/*margin:5px 16px 25px 0px;*/
+	color:#24303c;
 }
-
+#divInfoPrincipal{
+	display: flex;
+}
+.imagenInfo{
+	width: 99%;
+    margin-top: 10%;
+	border-radius: 5px;
+}
+div.card {
+    width: 25%;
+	background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	
+}
+div.card h2{
+	color: #24303c;
+}
+div.card dt,dd{
+	text-align: left;
+}
 #fraseHuila{
 	background-color:#FF9000;
 	border-top:2px solid #A15B00;
@@ -116,7 +139,7 @@ nav a:hover{
 .boton{
 	width:20%;
 	margin:10px auto;
-	padding:-5px;
+	padding:5px;
 	border-radius:5px;
 	text-align: center;
 	background-color:#ff91007a;;
@@ -125,11 +148,11 @@ nav a:hover{
 .boton > a {
 	color:#fff;
 	text-decoration: none;
+	
 }
 
 .fotos{
 	width:275px;
-	display: inline-block;
 	color:#fff;
 }
 .video{
